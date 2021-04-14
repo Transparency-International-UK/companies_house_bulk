@@ -15,8 +15,5 @@ upload them in a postgres database with a simple command.
 #### To dos
 
 The files are not cleaned in any way before being inserted. It could be worthwhile 
-to write a mapper that normalised the names and country names using [`countrynames`](https://pypi.org/project/countrynames/) and 
-[`fingerprints`](https://pypi.org/project/fingerprints/). With the mapper writing the cleaned line to a new
-file pipe it to psql like below:
-
-`cat file_with_data.csv | python3 mapper.py | psql [with connection options] -c "copy target_table from stdin" `
+to write a parser that reads line by line and normalises the names and country names using [`countrynames`](https://pypi.org/project/countrynames/) and 
+[`fingerprints`](https://pypi.org/project/fingerprints/). 

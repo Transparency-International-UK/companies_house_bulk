@@ -9,7 +9,7 @@ from multiprocessing.pool import ThreadPool
 import json
 from flatten import flatten_nested_dicts_only as flatten
 
-DB_URI = 'postgresql://gabri:Mangio_4_uovar?@localhost:5432/tiuk'  # customise
+DB_URI = ''  # customise
 DATADIR = 'data'  # make sure this is the same here and in the Makefile!
 
 

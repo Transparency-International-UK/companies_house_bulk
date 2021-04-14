@@ -10,7 +10,7 @@ import dataset
 from dataset.chunked import ChunkedInsert
 
 # customise the DB_URI
-DB_URI = 'postgresql://gabri:Mangio_4_uovar?@localhost:5432/tiuk'
+DB_URI = ''
 DATADIR = 'data'
 
 # connect to public schema
